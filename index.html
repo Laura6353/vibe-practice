@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💡 Start-up English Quiz!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>💡 오늘의 미니 영어 퀴즈</h1>
+        <p class="subtitle">수업을 시작하기 전, 두뇌를 깨워볼까요?</p>
+        
+        <hr>
+
+        <div id="quiz-box">
+            <div class="question-number" id="question-num">Question 1</div>
+            <div class="question-text" id="question-text">여기에 문제가 표시됩니다.</div>
+            
+            <div class="options-container" id="options-box">
+                </div>
+        </div>
+
+        <div id="result-box" class="hide">
+            <h2>🎉 퀴즈 종료!</h2>
+            <p id="score-text">너의 점수는...</p>
+            <button id="restart-btn" onclick="restartQuiz()">다시 도전하기</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
