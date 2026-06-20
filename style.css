@@ -1,0 +1,112 @@
+/* 기본 폰트 및 배경 설정 */
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 퀴즈 박스 전체 컨테이너 */
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 20px 0;
+}
+
+/* 문제 표시 영역 */
+.question-number {
+    font-size: 14px;
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* 선택지 버튼 스타일 */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option-btn {
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.option-btn:hover {
+    background-color: #e3f2fd;
+    border-color: #4dabf7;
+    transform: translateY(-2px);
+}
+
+/* 결과창 및 숨김 처리 크래스 */
+.hide {
+    display: none !important;
+}
+
+#result-box h2 {
+    color: #2ec4b6;
+}
+
+#score-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#restart-btn:hover {
+    background-color: #2980b9;
+}
