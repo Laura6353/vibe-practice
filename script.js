@@ -1,9 +1,9 @@
 // 퀴즈 문제 데이터 (선생님께서 원하시는 대로 수정/추가 가능합니다!)
 const quizData = [
     {
-        question: "다음 중 '사과'를 뜻하는 올바른 영어 단어는 무엇일까요?",
-        options: ["Apple", "Banana", "Orange", "Grape"],
-        answer: 0 // options 배열의 인덱스 (0 = 첫 번째)
+        question: "다음 중 '방울토마'를 뜻하는 올바른 영어 단어는 무엇일까요?",
+        options: ["Tomato", "Cherry Tomato", "Bubble Tomato", "Tiny Red Pumpkin"],
+        answer: 1 // options 배열의 인덱스 (0 = 첫 번째)
     },
     {
         question: "빈칸에 들어갈 알맞은 be동사를 고르세요.\n'He ____ a middle school student.'",
